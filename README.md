@@ -13,9 +13,8 @@ docker build -t tensorflow-app .
 docker run -it --rm -v ${PWD}:/app tensorflow-app
 ```
 
-## Dockerfile is now inside Dockerfile.example
-
-## The Above is used for Testing Purpose Of app.py
+### Dockerfile is now inside Dockerfile.example
+### The Above is used for Testing Purpose Of app.py
 
 ## For Using The Machine Learning Model With Streamlit Application
 
