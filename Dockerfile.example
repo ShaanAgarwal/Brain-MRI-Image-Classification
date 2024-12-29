@@ -10,7 +10,5 @@ COPY . /app
 # Install additional Python dependencies
 RUN pip install --no-cache-dir numpy pillow streamlit
 
-EXPOSE 8501
-
 # Set the command to run your application
-CMD ["streamlit", "run", "main.py"]
+CMD ["python", "app.py"]
